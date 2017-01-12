@@ -82,6 +82,7 @@ header .navbar-brand {
 }
 header .navbar-brand h2 {
   margin: 0;
+  font-size: 30px !important;
 }
 header .navbar-default {
   background: none;
