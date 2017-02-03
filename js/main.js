@@ -7,7 +7,7 @@ $(document).ready(function(){
 	$("#testimonial-slider").owlCarousel({
 	    paginationSpeed : 500,      
 	    singleItem:true,
-	    autoPlay: 3000,
+	    autoPlay: 9000,
 	});
 
 
@@ -29,13 +29,17 @@ $(document).ready(function(){
 
 
 	// google map
-		var map;
-		function initMap() {
-		  map = new google.maps.Map(document.getElementById('map'), {
-		    center: {lat: -34.397, lng: 150.644},
-		    zoom: 8
-		  });
-		}
+	window.initMap = function() {
+        var uluru = {lat: 36.995483, lng: -86.437271};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 15,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+    }
 
 
 	// Counter

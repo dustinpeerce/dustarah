@@ -177,28 +177,24 @@ font header .navbar-default .navbar-nav li a:hover {
 /*--
 	wrapper Start
 --*/
-#intro {
-  padding: 100px 0;
+#map-section {
+  padding: 0;
+  margin: 0;
 }
-#intro .block h2 {
-  padding-top: 35px;
+#map-section h2 {
+  text-align: center;
+  padding: 40px 0;
   line-height: 27px;
   margin: 0;
 }
-#intro .block p {
-  color: #7B7B7B;
-  padding-top: 20px;
-}
-#intro .block img {
-  padding-left: 40px;
-  width: 100%;
-}
-#intro .section-title {
+#map-section .section-title {
   margin-bottom: 0px;
 }
-#intro .section-title p {
-  padding-top: 20px;
+#map-section #map {
+  height:600px; 
+  width:100%;
 }
+
 /*--
 	service Start
 --*/
@@ -345,7 +341,7 @@ font header .navbar-default .navbar-nav li a:hover {
   margin: 0 auto;
 }
 #testimonial .testimonial-carousel img {
-  padding-bottom: 38px;
+  padding-bottom: 0;
 }
 #testimonial .testimonial-carousel p {
   line-height: 28px;
@@ -358,7 +354,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #testimonial .testimonial-carousel .user p {
   padding-bottom: 0;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 20px;
   color: #353241;
 }
