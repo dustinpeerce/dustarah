@@ -162,6 +162,7 @@ font header .navbar-default .navbar-nav li a:hover {
   text-align: center;
 }
 #slider .block h1 {
+  text-shadow: 1px 1px 5px #000;
   text-transform: uppercase;
   font-family: 'Roboto', sans-serif;
   font-size: 45px;
