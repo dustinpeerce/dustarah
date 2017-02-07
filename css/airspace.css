@@ -49,9 +49,10 @@ a:active {
   text-decoration: none !important;
 }
 .section-title {
-  margin-bottom: 70px;
+  margin-bottom: 50px;
 }
 .section-title h2 {
+  text-align: center;
   text-transform: uppercase;
   font-size: 28px;
   font-weight: 600;
@@ -142,6 +143,7 @@ font header .navbar-default .navbar-nav li a:hover {
   background-attachment: fixed;
   background-position: center 85%;
   position: relative;
+  padding-top: 200px;
   height: 800px;
 }
 #slider:before {
@@ -156,11 +158,12 @@ font header .navbar-default .navbar-nav li a:hover {
   opacity: 0.8;
 }
 #slider .block {
-  color: #E3E3E4;
+  color: #fff;
+  text-align: center;
 }
 #slider .block h1 {
+  text-transform: uppercase;
   font-family: 'Roboto', sans-serif;
-  font-weight: 100;
   font-size: 45px;
   line-height: 60px;
   letter-spacing: 10px;
@@ -198,8 +201,10 @@ font header .navbar-default .navbar-nav li a:hover {
 	service Start
 --*/
 #details {
-  text-align: center;
   padding: 90px 0;
+}
+#details h2 {
+
 }
 #details .service-item {
   padding-bottom: 30px;
@@ -289,7 +294,6 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #rsvp h2 {
   color: #fff;
-  text-align: center;
   font-size: 28px;
   font-weight: 600;
   margin-bottom: 30px;
@@ -305,7 +309,7 @@ font header .navbar-default .navbar-nav li a:hover {
   padding: 10px 20px;
 }
 #rsvp .block {
-  padding: 0 20px 50px;
+  padding: 0 0 50px;
 }
 
 /*--
@@ -384,6 +388,48 @@ font header .navbar-default .navbar-nav li a:hover {
   display: inline-block;
   border: 0px;
 }
+
+/*--
+  Registry Start
+--*/
+#registry {
+  padding: 100px 0;
+}
+
+#registry h4 {
+  text-align: center;
+  margin-top: 30px;
+}
+
+#registry .registry-icon {
+  height: 150px;
+  margin: 0 auto;
+}
+
+#registry .registry-icon.zola {
+  width: 312px;
+  background-image: url("../img/zola.png");
+}
+
+#registry .registry-icon.zola:hover {
+  background-image: url("../img/zola-highlight.png");
+}
+
+#registry .registry-icon.amazon {
+  width: 150px;
+  background-image: url("../img/amazon.png");
+}
+
+#registry .registry-icon.amazon:hover {
+  background-image: url("../img/amazon-highlight.png");
+}
+
+
+#registry .registry-icon.bed-bath-beyond {
+  width: 468px;
+  background-image: url("../img/bed-bath-beyond.png");
+}
+
 /*--
 	features Start
 --*/
