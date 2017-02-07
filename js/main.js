@@ -51,6 +51,9 @@ $(document).ready(function(){
     });
 
 
+	// Max height on Slider image
+	$('#slider').css('max-height', $(window).height());
+	$('#map').css('max-height', $(window).height());
 });
 
 
