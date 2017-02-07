@@ -41,17 +41,16 @@ $(document).ready(function(){
           map: map
         });
     }
-
+    initMap();
 
 	// Counter
-
 	$('.counter').counterUp({
         delay: 10,
         time: 1000
     });
 
 
-	// Max height on Slider image
+	// Max height on Slider image and Map
 	$('#slider').css('max-height', $(window).height());
 	$('#map').css('max-height', $(window).height());
 });
