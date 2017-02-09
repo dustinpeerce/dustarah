@@ -11,6 +11,9 @@ $(document).ready(function(){
 	});
 
 
+	// Max height on Slider image and Map
+	$('#slider').css('max-height', $(window).height());
+	$('#map').css('max-height', $(window).height());
 
 
 	$("#clients-logo").owlCarousel({
@@ -49,10 +52,6 @@ $(document).ready(function(){
         time: 1000
     });
 
-
-	// Max height on Slider image and Map
-	$('#slider').css('max-height', $(window).height());
-	$('#map').css('max-height', $(window).height());
 });
 
 

@@ -48,20 +48,18 @@ a:focus,
 a:active {
   text-decoration: none !important;
 }
-.section-title {
+
+.section-heading {
+  text-align: center;
   margin-bottom: 50px;
 }
-.section-title h2 {
-  text-align: center;
+.section-title {
   text-transform: uppercase;
   font-size: 28px;
   font-weight: 600;
+  margin-bottom: 50px;
 }
-.section-title p {
-  font-family: 'Volkhov', serif;
-  font-style: italic;
-  color: #666;
-}
+
 /*--
 	Header Start
 --*/
@@ -162,21 +160,44 @@ font header .navbar-default .navbar-nav li a:hover {
   text-align: center;
 }
 #slider .block h1 {
-  text-shadow: 1px 1px 5px #000;
-  text-transform: uppercase;
   font-family: 'Roboto', sans-serif;
   font-size: 45px;
   line-height: 60px;
   letter-spacing: 10px;
-  padding-bottom: 45px;
+  margin: 20px 0;
+}
+#slider .block h1.top {
+  text-transform: uppercase;
+  text-shadow: 2px 2px 2px #93380D;
+  font-family: 'Sorts Mill Goudy', sans-serif;
+  font-size: 45px;
+  color: turquoise;
+}
+#slider .block h1.bottom {
+  text-shadow: 2px 2px 2px #2D8000;
+  font-family: 'Great Vibes', cursive;
+  font-size: 65px;
+  color: purple;
 }
 #slider .block p {
-  font-size: 23px;
+  font-size: 26px;
   line-height: 40px;
+  text-shadow: 2px 2px 2px #000;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   letter-spacing: 3px;
+  margin: 10px 0;
 }
+#slider .block p:before,
+#slider .block p:after {
+  content: "";
+  display: inline-block;
+  width: 15%;
+  height: 2px;
+  background-color: #fff;
+  margin: 0 10px 4px;
+}
+
 /*--
 	wrapper Start
 --*/
@@ -203,9 +224,6 @@ font header .navbar-default .navbar-nav li a:hover {
 --*/
 #details {
   padding: 90px 0;
-}
-#details h2 {
-
 }
 #details .service-item {
   padding-bottom: 30px;
@@ -293,11 +311,8 @@ font header .navbar-default .navbar-nav li a:hover {
   backface-visibility: hidden;
   padding: 100px 0;
 }
-#rsvp h2 {
+#rsvp .section-title {
   color: #fff;
-  font-size: 28px;
-  font-weight: 600;
-  margin-bottom: 30px;
   text-shadow: 1px 1px 5px #000;
 }
 #rsvp p {
@@ -346,7 +361,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #rsvp .testimonial-carousel {
   text-align: center;
-  width: 75%;
+  width: 100%;
   background: #fff;
   box-shadow: 0px 0px 15px 2px;
   padding: 24px;
