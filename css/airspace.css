@@ -54,6 +54,7 @@ a:active {
   margin-bottom: 50px;
 }
 .section-title {
+  font-family: 'Sorts Mill Goudy', sans-serif;
   text-transform: uppercase;
   font-size: 28px;
   font-weight: 600;
@@ -76,7 +77,8 @@ header .navbar {
   border: 0px;
 }
 header .navbar-brand {
-  padding-top: 5px;
+  padding-top: 10px;
+  padding-bottom: 0;
   margin-left: 0 !important;
 }
 header .navbar-brand h2 {
@@ -141,7 +143,6 @@ font header .navbar-default .navbar-nav li a:hover {
   background-attachment: fixed;
   background-position: center 85%;
   position: relative;
-  padding-top: 200px;
   height: 800px;
 }
 #slider:before {
@@ -153,7 +154,13 @@ font header .navbar-default .navbar-nav li a:hover {
   right: 0;
   width: 100%;
   height: 100%;
+  background: linear-gradient(to left, #8b86a3, rgba(255, 0, 94, 0.35));
   opacity: 0.8;
+}
+#slider .slider-header-container {
+  position: absolute;
+  left: 0;
+  right: 0;
 }
 #slider .block {
   color: #fff;
@@ -161,8 +168,6 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #slider .block h1 {
   font-family: 'Roboto', sans-serif;
-  font-size: 45px;
-  line-height: 60px;
   letter-spacing: 10px;
   margin: 20px 0;
 }
@@ -176,7 +181,7 @@ font header .navbar-default .navbar-nav li a:hover {
 #slider .block h1.bottom {
   text-shadow: 2px 2px 2px #2D8000;
   font-family: 'Great Vibes', cursive;
-  font-size: 65px;
+  font-size: 95px;
   color: purple;
 }
 #slider .block p {
