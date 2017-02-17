@@ -129,7 +129,7 @@ header .navbar-default .navbar-nav li a:hover span:before {
 }
 
 font header .navbar-default .navbar-nav li a:hover {
-  color: #000;
+  color: #333;
 }
 /*---------------------------------------------
 					Index Start
@@ -154,7 +154,7 @@ font header .navbar-default .navbar-nav li a:hover {
   right: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to top, rgba(180, 180, 200, 0.6), rgba(255, 0, 94, 0.6));
+  background: linear-gradient(to top, rgba(180, 180, 200, 0.6), rgba(255, 0, 94, 0.3));
   opacity: 0.8;
 }
 #slider .slider-header-container {
@@ -187,7 +187,7 @@ font header .navbar-default .navbar-nav li a:hover {
 #slider .block p {
   font-size: 26px;
   line-height: 40px;
-  text-shadow: 2px 2px 2px #000;
+  text-shadow: 2px 2px 2px #333;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   letter-spacing: 3px;
@@ -323,7 +323,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #rsvp .section-title {
   color: #fff;
-  text-shadow: 1px 1px 5px #000;
+  text-shadow: 1px 1px 5px #333;
 }
 #rsvp p {
   color: #8d8f92;
@@ -424,12 +424,16 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 
 #registry .service-item {
-  border: 1px solid #000;
-  box-shadow: 2px 2px 8px 1px #000;
+  position: relative;
+  padding-top: 5px;
+  border: 1px solid #333;
+  box-shadow: 0 1px 8px 0 #333;
   margin: 20px 0;
+  transition: all ease 0.25s;
 }
 #registry .service-item:hover {
-  box-shadow: 2px 2px 15px 4px #000;
+  top: -10px;
+  box-shadow: 0 11px 18px 0 #333;
 }
 
 #registry h4 {
@@ -448,9 +452,9 @@ font header .navbar-default .navbar-nav li a:hover {
 #registry .registry-description {
   width: 100%;
   height: auto;
-  background: rgb(76, 178, 188);
+  background: #eee;
   padding: 50px 0;
-  color: #fff;
+  color: #333;
 }
 
 
@@ -833,7 +837,7 @@ font header .navbar-default .navbar-nav li a:hover {
 #contact-box .block h2 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
-  color: #000;
+  color: #333;
   font-size: 28px;
   padding-bottom: 30px;
 }
@@ -863,7 +867,7 @@ font header .navbar-default .navbar-nav li a:hover {
   text-align: center;
 }
 .heading h2 {
-  color: #000;
+  color: #333;
   font-size: 30px;
   line-height: 40px;
   font-weight: 400;
@@ -907,7 +911,7 @@ footer .footer-manu ul li a {
   color: #494949;
 }
 footer .footer-manu ul li a:hover {
-  color: #000;
+  color: #333;
 }
 footer .footer-contact {
   padding-top: 30px;
