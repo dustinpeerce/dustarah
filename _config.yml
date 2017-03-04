@@ -21,7 +21,7 @@ subtitle: "A Wedding is Coming"
 # root of your server.
 # baseurl: "/" # the subpath of your site
 url: "http://dustinpeerce.github.io" # the base hostname & protocol for your site
-baseurl: "/dustarah"
+baseurl: "/"
 cover: "/assets/cover.png"
 logo: "/assets/logo.png"
 favicon:     "favicon.ico"
