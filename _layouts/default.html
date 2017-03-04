@@ -6,12 +6,16 @@
 	</head>
 
 	<body>
+	
+		{% if site.maintenance %}
+			{% include maintenance.html %}
+		{% else %}
+	    	{% include header.html %}
 
-	    {% include header.html %}
+		    {{ content }}
 
-	    {{ content }}
-
-	    {% include footer.html %}
+		    {% include footer.html %}
+	    {% endif %}
 
     </body>
 
