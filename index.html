@@ -27,32 +27,36 @@ permalink: /
     </div>
     <div class="row">
 
-      <div class="col-md-6">
+      <div class="col-md-3">
         <div class="service-item">
           <i class="ion-compass"></i>
           <h4>When and Where</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </p>
+          <p>5:00 PM at <a href="https://www.lagalabg.com/" target="_blank">La Gala</a></p>
+          <p>601 State Street<br>
+          Bowling Green, KY 42101 </p>
         </div>
       </div>
-      <div class="col-md-6">
+      <div class="col-md-3">
         <div class="service-item">
           <i class="ion-bowtie"></i>
           <h4>What to Wear</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </p>
+          <p>Informal to Semi-formal attire. As formal as you are comfortable with being.</p>
         </div>
       </div>
-      <div class="col-md-6">
+      <div class="col-md-3">
         <div class="service-item">
-          <i class="ion-pizza"></i>
-          <h4>Food</h4>
+          <i class="ion-wineglass"></i>
+          <h4>Food & Drinks</h4>
           <p>Details coming soon!</p>
         </div>
       </div>
-      <div class="col-md-6">
+      <div class="col-md-3">
         <div class="service-item">
-          <i class="icon ion-wineglass"></i>
-          <h4>Drinks</h4>
-          <p>Details coming soon!</p>
+          <i class="icon ion-pound"></i>
+          <h4>Wedding Hashtag</h4>
+          <p>#YouPeerceMySoul</p>
+          <p>"You pierce my soul. ... I have loved none but you."<br>
+          - Jane Austen, <em>Persuasion</em></p>
         </div>
       </div>
       
@@ -61,13 +65,14 @@ permalink: /
 </section>
 
 <section id="rsvp" style="min-height: 600px;">
-  <div class="container" style="display: none;">
+  <div class="container">
     <div class="row section-heading">
       <span class="section-title">Online RSVP</span>
     </div>
     <div class="row">
       <div class="col-md-6">
         <!-- rsvp form start -->
+        {% if site.rsvp %}
         <div class="block">
           <form>
             <div class="form-group">
@@ -85,6 +90,11 @@ permalink: /
             <button class="btn btn-primary btn-lg" type="submit">Send Response</button>
           </form>
         </div>
+        {% else %}
+        <div class="block">
+          <h3 style="text-align:center; color:#fff; text-shadow: 1px 1px #333">RSVP Form Coming Soon!</h3>
+        </div>
+        {% endif %}
       </div>
 
       <div class="col-md-6">
@@ -116,10 +126,10 @@ permalink: /
             </div>
             <div>
               <img src="img/cotation.png" alt="IMG">
-                <p>"This Company created an e-commerce site with the tools to make our business a success, with innovative ideas we feel that our site has unique elements that make us stand out from the crowd."</p>
+                <p>"It's not unusual to love Sarah and Dustin."</p>
                 <div class="user">
-                  <img src="img/item-img1.jpg" alt="Pepole">
-                  <p><span>Rose Ray</span> CEO-Themefisher</p>
+                  <img src="img/alfonso-ribeiro.jpg" alt="Pepole">
+                  <p><span>Carlton Banks</span> Michael Bolton Enthusiast</p>
                 </div>
             </div>
           </div>

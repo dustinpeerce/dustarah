@@ -83,6 +83,7 @@ header .navbar-brand {
 }
 header .navbar-brand h2 {
   margin: 0;
+  font-family: 'Sorts Mill Goudy', sans-serif;
   font-size: 30px !important;
 }
 header .navbar-default {
@@ -154,7 +155,7 @@ font header .navbar-default .navbar-nav li a:hover {
   right: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to top, rgba(180, 180, 200, 0.6), rgba(255, 0, 94, 0.3));
+  background-color: rgba(255, 255, 255, 0.35);
   opacity: 0.8;
 }
 #slider .slider-header-container {
@@ -173,16 +174,16 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #slider .block h1.top {
   text-transform: uppercase;
-  text-shadow: 2px 2px 2px #93380D;
+  text-shadow: 2px 2px 2px #676767;
   font-family: 'Sorts Mill Goudy', sans-serif;
   font-size: 45px;
-  color: turquoise;
+  color: rgb(175, 156, 218);
 }
 #slider .block h1.bottom {
-  text-shadow: 2px 2px 2px #2D8000;
+  text-shadow: 2px 2px 2px #333;
   font-family: 'Great Vibes', cursive;
   font-size: 95px;
-  color: purple;
+  color: #ece611;
 }
 #slider .block p {
   font-size: 26px;
@@ -236,6 +237,7 @@ font header .navbar-default .navbar-nav li a:hover {
   padding: 90px 0;
 }
 #details .service-item {
+  text-align: center;
   padding-bottom: 30px;
 }
 #details .service-item i {
