@@ -26,7 +26,7 @@ cover: "/assets/cover.png"
 logo: "/assets/logo.png"
 favicon:     "favicon.ico"
 touch_icon:  "apple-touch-icon.png"
-maintenance: true
+maintenance: false
 rsvp: false
 
 # Build settings
