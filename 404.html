@@ -1,0 +1,49 @@
+---
+layout: page
+title: Dustarah - 404
+permalink: /404.html
+---
+
+
+<div class="section-404">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <span class="section-404-title">404</span>
+        <h4>We couldn't find what you were looking for. Here, have some Carlton instead.</h4>
+      </div>
+      <div class="gif-overlay">
+        <img id="carlton" src="img/gifs/carlton.gif">
+        <audio id="audio" src="audio/tom-jones.mp3" ></audio>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+
+  var carlton = document.getElementById("carlton");
+  var audio = document.getElementById("audio");
+  var isPlaying = false;
+
+  carlton.onclick = function() {
+    if (isPlaying)
+      audio.pause();
+    else
+      audio.play();
+  };
+
+  audio.onplaying = function() {
+    isPlaying = true;
+  };
+
+  audio.onpause = function() {
+    isPlaying = false;
+  };
+
+  audio.addEventListener('ended', function() {
+    this.currentTime = 0;
+    this.play();
+  }, false);
+
+</script>
