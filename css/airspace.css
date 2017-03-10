@@ -195,13 +195,13 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #slider .block h1.top {
   text-transform: uppercase;
-  text-shadow: 2px 2px 1px #333;
+  text-shadow:  2px 2px 1px #333;
   font-family: 'Sorts Mill Goudy', sans-serif;
   font-size: 45px;
   color: rgb(175, 156, 218);
 }
 #slider .block h1.bottom {
-  text-shadow: 2px 2px 1px #333;
+  text-shadow:  2px 2px 1px #333;
   font-family: 'Great Vibes', cursive;
   font-size: 95px;
   color: #ece611;
@@ -209,7 +209,7 @@ font header .navbar-default .navbar-nav li a:hover {
 #slider .block p {
   font-size: 26px;
   line-height: 40px;
-  text-shadow: 2px 2px 1px #333;
+  text-shadow:  2px 2px 1px #333;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   letter-spacing: 3px;
@@ -344,9 +344,13 @@ font header .navbar-default .navbar-nav li a:hover {
   backface-visibility: hidden;
   padding: 100px 0;
 }
-#rsvp .section-title {
+#rsvp .section-title,
+#rsvp h1 {
+  text-align: center;
   color: #fff;
-  text-shadow: 1px 1px 5px #333;
+  text-shadow:  0px 3px 2px rgba(0, 0, 0, 0.5),
+                0px 8px 13px rgba(0, 0, 0, 0.1),
+                0px 18px 23px rgba(0, 0, 0, 0.1);
 }
 #rsvp p {
   color: #8d8f92;
@@ -580,7 +584,9 @@ font header .navbar-default .navbar-nav li a:hover {
   top: 23px;
   margin: 0 auto;
   color: #fff;
-  text-shadow: 0 1px 0px rgba(0, 0, 0, 0.9);
+  text-shadow:  0px 4px 3px rgba(0, 0, 0, 0.4),
+                0px 8px 13px rgba(0, 0, 0, 0.1),
+                0px 18px 23px rgba(0, 0, 0, 0.1);
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
@@ -599,7 +605,9 @@ font header .navbar-default .navbar-nav li a:hover {
   top: 24px;
   margin: 0 auto;
   color: #fff;
-  text-shadow: 0 1px 0px rgba(0, 0, 0, 0.9);
+  text-shadow:  0px 4px 3px rgba(0, 0, 0, 0.4),
+                0px 8px 13px rgba(0, 0, 0, 0.1),
+                0px 18px 23px rgba(0, 0, 0, 0.1);
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
