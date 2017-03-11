@@ -160,7 +160,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	Slider Start
 --*/
 #slider {
-  background: url("../img/library-crop.jpeg") no-repeat;
+  background: url("../img/library_crop.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
@@ -323,7 +323,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	Feature Start
 --*/
 #rsvp {
-  background: url("../img/book-coffee.jpeg");
+  background: url("../img/book_coffee.jpg");
   background-position: 50% 94px;
   width: 100%;
   display: block;

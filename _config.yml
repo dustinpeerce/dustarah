@@ -35,6 +35,9 @@ markdown: kramdown
 # Google analytics
 # ga_tracking_id: "UA-XXXX-1"
 
+# Google webmaster tools
+google_verify: QXoAPsij7bY3xsp020mlELPt42ylMlmvpZ1ilPUW8Ic
+
 # Category descriptions (for archive pages)
 descriptions:
   - cat: jekyll
