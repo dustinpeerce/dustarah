@@ -13,8 +13,7 @@ permalink: /404.html
         <h4>We couldn't find what you were looking for. Here, have some Carlton instead.</h4>
       </div>
       <div class="gif-overlay">
-        <img id="carlton" src="img/gifs/carlton.gif">
-        <audio id="audio" src="audio/tom-jones.mp3" ></audio>
+        <img id="carlton" src="/img/gifs/carlton.gif">
       </div>
     </div>
   </div>
@@ -23,27 +22,9 @@ permalink: /404.html
 <script>
 
   var carlton = document.getElementById("carlton");
-  var audio = document.getElementById("audio");
-  var isPlaying = false;
 
   carlton.onclick = function() {
-    if (isPlaying)
-      audio.pause();
-    else
-      audio.play();
+    ToggleSong();
   };
-
-  audio.onplaying = function() {
-    isPlaying = true;
-  };
-
-  audio.onpause = function() {
-    isPlaying = false;
-  };
-
-  audio.addEventListener('ended', function() {
-    this.currentTime = 0;
-    this.play();
-  }, false);
 
 </script>

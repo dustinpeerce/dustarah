@@ -57,6 +57,31 @@ $(document).ready(function(){
 	});
 
 
+	// Audio
+	var audio = document.getElementById("audio");
+	var isPlaying = false;
+
+	ToggleSong = function() {
+		if (isPlaying)
+			audio.pause();
+		else
+			audio.play();
+	}
+
+	audio.onplaying = function() {
+		isPlaying = true;
+	};
+
+	audio.onpause = function() {
+		isPlaying = false;
+	};
+
+	audio.addEventListener('ended', function() {
+		this.currentTime = 0;
+		this.play();
+	}, false);
+
+
 	// google map
 	window.initMap = function() {
         var uluru = {lat: 36.995483, lng: -86.437271};
