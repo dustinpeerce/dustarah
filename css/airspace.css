@@ -258,12 +258,13 @@ font header .navbar-default .navbar-nav li a:hover {
   padding: 100px 0;
 }
 #details .card-row {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 #details .service-item {
   text-align: center;
   border: 1px solid #ddd;
   box-shadow: 0 0 1px 1px #ddd;
+  margin-bottom: 30px;
 }
 #details .service-item i {
   font-size: 60px;
