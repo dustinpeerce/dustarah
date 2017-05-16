@@ -1,5 +1,9 @@
 $(document).ready(function(){
 
+	// Equal Height Service Items
+	$(function() {
+		$('.service-item').matchHeight();
+	});
 
 	$("#portfolio-contant-active").mixItUp();
 
@@ -80,43 +84,6 @@ $(document).ready(function(){
 		this.currentTime = 0;
 		this.play();
 	}, false);
-
-
-	// google map
-	window.initMap = function() {
-        var uluru = {lat: 36.995483, lng: -86.437271};
-
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 15,
-          scrollwheel: false,
-          center: uluru
-        });
-
-        var marker = new google.maps.Marker({
-          position: uluru,
-          map: map
-        });
-
-        var contentString = '<p><strong>La Gala</strong><br>' +
-        					'601 State Street<br>' +
-        					'Bowling Green, KY 42101</p>';
-
-        var infowindow = new google.maps.InfoWindow({
-          content: contentString
-        });
-
-        marker.addListener('click', function() {
-          infowindow.open(map, marker);
-        });
-
-        infowindow.open(map, marker);
-    }
-
-	// Counter
-	$('.counter').counterUp({
-        delay: 10,
-        time: 1000
-    });
 
 });
 
