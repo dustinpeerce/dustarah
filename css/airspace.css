@@ -281,6 +281,9 @@ font header .navbar-default .navbar-nav li a:hover {
   text-align: left;
   padding: 20px;
 }
+#details .service-item .card-body blockquote {
+  color: #888;
+}
 #details .service-item h4 {
   font-size: 20px;
   margin: 0;
