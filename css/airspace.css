@@ -813,17 +813,26 @@ font header .navbar-default .navbar-nav li a:hover {
 /*--
 	rsvp-form Start
 --*/
-
+#rsvp .block form h3 {
+  text-shadow: 1px 1px 5px #333;
+  color: #fff;
+}
 #rsvp .block form .form-group {
   padding-bottom: 15px;
   margin: 0px;
 }
 #rsvp .block form .form-group .form-control {
+  font-size: 20px;
   background: #F6F8FA;
   height: 60px;
   border: 1px solid #EEF2F6;
   box-shadow: none;
   width: 100%;
+}
+#rsvp .block form .form-group input[type=radio].form-control {
+  width: 15px;
+  height: 15px;
+  display: inline-block;
 }
 #rsvp .block form .form-group textarea {
   background: #F6F8FA;
@@ -831,6 +840,12 @@ font header .navbar-default .navbar-nav li a:hover {
   border: 1px solid #EEF2F6;
   box-shadow: none;
   width: 100%;
+}
+#rsvp .block form .form-group label {
+  font-size: 20px;
+  text-shadow: 1px 1px 5px #333;
+  color: #fff;
+  display: inline-block;
 }
 #rsvp .block button {
   width: 100%;

@@ -109,20 +109,104 @@ permalink: /
         <!-- rsvp form start -->
         {% if site.rsvp %}
         <div class="block">
-          <form>
+          <form action="https://formspree.io/dustin@dustarah.com" method="POST">
             <div class="form-group">
-              <input id="name" type="text" class="form-control" placeholder="Name">
+              <h3>MAY WE BORROW YOU?</h3><br>
+              <input type="radio" class="form-control" name="attending" id="attending-yes" value="yes">
+              <label for="attending-yes">Yes, Please!</label> <br>
+              <input type="radio" class="form-control" name="attending" id="attending-no" value="no">
+              <label for="attending-no">Sorry, I'm already checked out.</label>
             </div>
-            <div class="form-group">
-              <input id="email" type="email" class="form-control" placeholder="Email">
+
+            <div class="conditional" data-cond-option="attending" data-cond-value="yes">
+              <div class="form-group">
+                <div class="row">
+                  <div class="col-md-9">
+                    <input type="text" class="form-control" name="guest-one-name" placeholder="Name">
+                  </div>
+                  <div class="col-md-3">
+                    <input type="radio" class="form-control" name="guest-one-food" id="guest-one-food-chicken" value="chicken">
+                    <label for="guest-one-food-chicken">Chicken</label> <br>
+                    <input type="radio" class="form-control" name="guest-one-food" id="guest-one-food-pasta" value="pasta">
+                    <label for="guest-one-food-pasta">Pasta</label>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="row">
+                  <div class="col-md-9">
+                    <input type="text" class="form-control" name="guest-two-name" placeholder="Name">
+                  </div>
+                  <div class="col-md-3">
+                    <input type="radio" class="form-control" name="guest-two-food" id="guest-two-food-chicken" value="chicken">
+                    <label for="guest-two-food-chicken">Chicken</label> <br>
+                    <input type="radio" class="form-control" name="guest-two-food" id="guest-two-food-pasta" value="pasta">
+                    <label for="guest-two-food-pasta">Pasta</label>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="row">
+                  <div class="col-md-9">
+                    <input type="text" class="form-control" name="guest-three-name" placeholder="Name">
+                  </div>
+                  <div class="col-md-3">
+                    <input type="radio" class="form-control" name="guest-three-food" id="guest-three-food-chicken" value="chicken">
+                    <label for="guest-three-food-chicken">Chicken</label> <br>
+                    <input type="radio" class="form-control" name="guest-three-food" id="guest-three-food-pasta" value="pasta">
+                    <label for="guest-three-food-pasta">Pasta</label>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="row">
+                  <div class="col-md-9">
+                    <input type="text" class="form-control" name="guest-four-name" placeholder="Name">
+                  </div>
+                  <div class="col-md-3">
+                    <input type="radio" class="form-control" name="guest-four-food" id="guest-four-food-chicken" value="chicken">
+                    <label for="guest-four-food-chicken">Chicken</label> <br>
+                    <input type="radio" class="form-control" name="guest-four-food" id="guest-four-food-pasta" value="pasta">
+                    <label for="guest-four-food-pasta">Pasta</label>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="row">
+                  <div class="col-md-9">
+                    <input type="text" class="form-control" name="guest-five-name" placeholder="Name">
+                  </div>
+                  <div class="col-md-3">
+                    <input type="radio" class="form-control" name="guest-five-food" id="guest-five-food-chicken" value="chicken">
+                    <label for="guest-five-food-chicken">Chicken</label> <br>
+                    <input type="radio" class="form-control" name="guest-five-food" id="guest-five-food-pasta" value="pasta">
+                    <label for="guest-five-food-pasta">Pasta</label>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="row">
+                  <div class="col-md-9">
+                    <input type="text" class="form-control" name="guest-six-name" placeholder="Name">
+                  </div>
+                  <div class="col-md-3">
+                    <input type="radio" class="form-control" name="guest-six-food" id="guest-six-food-chicken" value="chicken">
+                    <label for="guest-six-food-chicken">Chicken</label> <br>
+                    <input type="radio" class="form-control" name="guest-six-food" id="guest-six-food-pasta" value="pasta">
+                    <label for="guest-six-food-pasta">Pasta</label>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="form-group">
-              <input id="phone" type="text" class="form-control" placeholder="Phone">
+            
+            <div class="conditional" data-cond-option="attending" data-cond-value="no">
+              <div class="form-group">
+                <input type="text" class="form-control" name="not-attending-name" placeholder="Name">
+              </div>
             </div>
-            <div class="form-group">
-              <textarea id="notes" class="form-control" cols="30" rows="5" placeholder="Notes"></textarea>
-            </div>
-            <button class="btn btn-primary btn-lg" type="submit">Send Response</button>
+            
+            
+            <button class="btn btn-primary btn-lg" type="submit">Submit</button>
           </form>
         </div>
         {% else %}

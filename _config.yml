@@ -27,7 +27,7 @@ logo: "/assets/logo.png"
 favicon:     "favicon.ico"
 touch_icon:  "apple-touch-icon.png"
 maintenance: false
-rsvp: false
+rsvp: true
 
 # Build settings
 markdown: kramdown

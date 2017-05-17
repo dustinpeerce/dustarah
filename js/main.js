@@ -1,9 +1,10 @@
 $(document).ready(function(){
 
+	// Conditional Form Logic
+	$('.conditional').conditionize();
+
 	// Equal Height Service Items
-	$(function() {
-		$('.service-item').matchHeight();
-	});
+	$('.service-item').matchHeight();
 
 	$("#portfolio-contant-active").mixItUp();
 
