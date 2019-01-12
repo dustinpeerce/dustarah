@@ -185,49 +185,30 @@ font header .navbar-default .navbar-nav li a:hover {
   right: 0;
 }
 #slider .block {
+  font-family: 'Sorts Mill Goudy', sans-serif;
   color: #fff;
   text-align: center;
 }
 #slider .block h1 {
-  font-family: 'Roboto', sans-serif;
   letter-spacing: 10px;
   margin: 20px 0;
 }
 #slider .block h1.top {
   text-transform: uppercase;
   text-shadow:  2px 2px 1px #333;
-  font-family: 'Sorts Mill Goudy', sans-serif;
   font-size: 45px;
-  color: rgb(175, 156, 218);
 }
 #slider .block h1.bottom {
   text-shadow:  2px 2px 1px #333;
-  font-family: 'Great Vibes', cursive;
   font-size: 95px;
-  color: #ece611;
 }
 #slider .block p {
   font-size: 26px;
   line-height: 40px;
   text-shadow:  2px 2px 1px #333;
-  font-family: 'Roboto', sans-serif;
   font-weight: 300;
   letter-spacing: 3px;
   margin: 10px 0;
-}
-#slider .block p:before,
-#slider .block p:after {
-  content: "";
-  display: inline-block;
-  width: 15%;
-  height: 2px;
-  margin: 0 10px 4px;
-}
-#slider .block p:before {
-  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
-}
-#slider .block p:after {
-  background-image: linear-gradient(to left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
 }
 
 /*--

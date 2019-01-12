@@ -15,12 +15,12 @@ keep_files:
 
 # Site settings
 title: Dustarah
-subtitle: "A Wedding is Coming"
+subtitle: "Two People Who Are Cool"
 # Base URL of site. It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
 # baseurl: "/" # the subpath of your site
-url: "http://dustinpeerce.github.io" # the base hostname & protocol for your site
+url: "http://localhost:4000" # the base hostname & protocol for your site
 baseurl: ""
 cover: "/assets/cover.png"
 logo: "/assets/logo.png"
