@@ -20,7 +20,7 @@ permalink: /
 </section>
 
 <!-- Service Start -->
-<section id="engagement" style="margin: 50px 0;">
+<section id="engagement" style="margin: 50px 0; text-align: center;">
     <div class="container">
         <div class="row section-heading">
             <span class="section-title">Engagement</span>
@@ -36,18 +36,19 @@ permalink: /
             "thumbnailAlignment": "center"
           }'>
             {% for image in site.static_files %}
-                {% if image.path contains 'img/engagement' %}
-                    <a href="{{ site.baseurl }}{{ image.path }}" data-ngthumb="{{ site.baseurl }}{{ image.path }}" data-ngdesc="KGO Photography"></a>
+                {% if image.path contains 'img/engagement/full' %}
+                    <a href="{{ site.baseurl }}{{ image.path }}" data-ngthumb="{{ site.baseurl }}/img/engagement/thumb/{{ image.basename }}_thumb{{ image.extname }}" data-ngdesc="KGO Photography"></a>
                 {% endif %}
             {% endfor %}
         </div>
+
         <div style="text-align: center;">
             <a href="https://photos.google.com/share/AF1QipN4bLWHTubCU0Y09Xx0LCDyNJid3SWy1GOjYCqgXW08fLOIHAj9LAEg_b35gIHcvA?key=T3BqcHhKN085b1lXazBpSVJoSzU1ZEtVbGZiTktB" target="_blank" style="font-size: 1.5em;">View the Full Gallery</a>
         </div>
     </div>
 </section>
 
-<section id="wedding" style="margin: 50px 0;">
+<section id="wedding" style="margin: 50px 0; text-align: center;">
     <div class="container">
         <div class="row section-heading">
             <span class="section-title">Wedding</span>
@@ -63,11 +64,12 @@ permalink: /
             "thumbnailAlignment": "center"
           }'>
             {% for image in site.static_files %}
-                {% if image.path contains 'img/wedding' %}
-                    <a href="{{ site.baseurl }}{{ image.path }}" data-ngthumb="{{ site.baseurl }}{{ image.path }}" data-ngdesc=""></a>
+                {% if image.path contains 'img/wedding/full' %}
+                    <a href="{{ site.baseurl }}{{ image.path }}" data-ngthumb="{{ site.baseurl }}/img/wedding/thumb/{{ image.basename }}_thumb{{ image.extname }}" data-ngdesc="KGO Photography"></a>
                 {% endif %}
             {% endfor %}
         </div>
+
         <div style="text-align: center;">
             <a href="https://photos.google.com/share/AF1QipOnxxJk509W4JwtZ-9fYnam2SqG-LCTrV86M_vJRxffSUPqFANNZ5-BzUMxPIqXIQ?key=MDF1ekF3NW80VVFKazNkR01pa3dMQzRlb2JLYjRn" target="_blank" style="font-size: 1.5em;">View the Full Gallery</a>
         </div>
