@@ -61,7 +61,6 @@ a:active {
 
 .section-heading {
   text-align: center;
-  margin-bottom: 50px;
 }
 .section-title {
   font-family: 'Sorts Mill Goudy', sans-serif;
@@ -190,16 +189,15 @@ font header .navbar-default .navbar-nav li a:hover {
   text-align: center;
 }
 #slider .block h1 {
+  text-transform: uppercase;
+  text-shadow:  2px 2px 1px #333;
   letter-spacing: 10px;
   margin: 20px 0;
 }
 #slider .block h1.top {
-  text-transform: uppercase;
-  text-shadow:  2px 2px 1px #333;
   font-size: 45px;
 }
 #slider .block h1.bottom {
-  text-shadow:  2px 2px 1px #333;
   font-size: 95px;
 }
 #slider .block p {
